@@ -1,0 +1,133 @@
+.loi{
+   background: #1A8EB1;
+   padding: 10px;
+   margin:10px;
+   border-radius: 5px;
+}
+.testClass {
+   visibility: hidden;
+}
+
+.loi p{
+   color : #fff;
+   font-weight: bold;
+   font-size: 14px;
+   text-transform: capitalize;
+}
+.loi span{
+   color: #000;
+   font-size: 17px;
+   font-weight: bold;
+
+}
+.bg-success{
+   width: 500px;
+   padding: 20px;
+}
+
+.titre{
+   font-weight: bold;
+   text-align: center;
+}
+
+.btn-round {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.btn-round.btn-lg {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-round.btn-sm {
+    width: 34px;
+    height: 34px;
+}
+
+.btn-round.btn-xs {
+    width: 24px;
+    height: 24px;
+}
+
+/**********/
+.pour1{visibility: hidden;}
+.abstention1{visibility: hidden;}
+.contre1{visibility: hidden;}
+
+.pour2{visibility: hidden;}
+.abstention2{visibility: hidden;}
+.contre2{visibility: hidden;}
+
+.pour3{visibility: hidden;}
+.abstention3{visibility: hidden;}
+.contre3{visibility: hidden;}
+
+.pour4{visibility: hidden;}
+.abstention4{visibility: hidden;}
+.contre4{visibility: hidden;}
+
+.pour5{visibility: hidden;}
+.abstention5{visibility: hidden;}
+.contre5{visibility: hidden;}
+
+.pour6{visibility: hidden;}
+.abstention6{visibility: hidden;}
+.contre6{visibility: hidden;}
+
+.pour7{visibility: hidden;}
+.abstention7{visibility: hidden;}
+.contre7{visibility: hidden;}
+
+.pour8{visibility: hidden;}
+.abstention8{visibility: hidden;}
+.contre8{visibility: hidden;}
+
+.pour9{visibility: hidden;}
+.abstention9{visibility: hidden;}
+.contre9{visibility: hidden;}
+
+.pour10{visibility: hidden;}
+.abstention10{visibility: hidden;}
+.contre10{visibility: hidden;}
+
+.pour11{visibility: hidden;}
+.abstention11{visibility: hidden;}
+.contre11{visibility: hidden;}
+
+.pour12{visibility: hidden;}
+.abstention12{visibility: hidden;}
+.contre12{visibility: hidden;}
+
+.pour13{visibility: hidden;}
+.abstention13{visibility: hidden;}
+.contre13{visibility: hidden;}
+
+.pour14{visibility: hidden;}
+.abstention14{visibility: hidden;}
+.contre14{visibility: hidden;}
+
+.pour15{visibility: hidden;}
+.abstention15{visibility: hidden;}
+.contre15{visibility: hidden;}
+
+.pour16{visibility: hidden;}
+.abstention16{visibility: hidden;}
+.contre16{visibility: hidden;}
+
+.pour17{visibility: hidden;}
+.abstention17{visibility: hidden;}
+.contre17{visibility: hidden;}
+
+.pour18{visibility: hidden;}
+.abstention18{visibility: hidden;}
+.contre18{visibility: hidden;}
+
+.pour19{visibility: hidden;}
+.abstention19{visibility: hidden;}
+.contre19{visibility: hidden;}
+
+.pour20{visibility: hidden;}
+.abstention20{visibility: hidden;}
+.contre20{visibility: hidden;}

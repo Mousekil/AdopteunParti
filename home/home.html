@@ -1,0 +1,68 @@
+<div class="home" ng-controller="loadCtrl">
+      
+    <div class="row"  ng-controller="deputeCtrl">
+  
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+          
+        <div class="navbar-header pull-left">     
+          <a class="navbar-brand" href="index.php">Adopte un parti</a>
+        </div>
+        <div class="navbar-header pull-right">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            
+          <p class="navbar-text">
+            <b> Bienvenue {{auth.profile.nickname}} </b>&nbsp;
+            <a  class="btn btn-primary btn-xs" ng-click="logout()">Se déconnecter</a>&nbsp;
+          </p>  
+        </div>
+            
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#/">Accueil</a></li>
+          </ul>
+        </div>
+       
+     </div>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 100px;" ng-controller="voteCtrl">
+     <div class="row" ng-controller="xmlToJsonCtrl">
+        <div class="row" ><h4 class="titre">Etes vous de droite ou de gauche ?</h4></div>
+        <center>
+            <br>
+            <div class="alert alert-success" ng-show="loading">Loading</div>
+            
+            
+        </center>
+        <div class="loi" ng-repeat="loi in LdataV">
+            <p><span>{{loi.numero}} - </span> &nbsp;{{loi.titre}}</p>
+            <center>
+             <div class="row">
+                <button  id="pour" ng-click="changeVote(vote, 'pour',loi.numero)" ng-class="{true:'pour', false:''}[vote =='pour']" type="button" class="btn btn-success btn-lg btn-round" title="Pour"><span class="fa fa-thumbs-up"></span></button>
+                <button  id="contre" ng-click="changeVote(vote, 'contre',loi.numero)" ng-class="{true:'contre', false:''}[vote =='contre']" type="button" class="btn btn-danger btn-lg btn-round"  title="Contre"><span class="fa fa-thumbs-down"></span></button>
+                <button  id="abstention" ng-click="changeVote(vote, 'abstention',loi.numero)" ng-class="{true:'abstention', false:''}[vote =='abstention']" type="button" class="btn btn-warning btn-lg btn-round"  title="Abstention"><span class="fa fa-ban"></span></button>
+            </div>
+            </center>
+            <br>
+        </div>
+    
+        <center>
+        <div class="row">
+              <a href="#/resultat" class="btn btn-success" ng-show="btnresult">Voir le résultat</a>
+            </div>
+
+        </center>
+     </div>
+  </div>
+
+
+   
+</div>
+
+
+
