@@ -1,15 +1,11 @@
-# Auth0 + AngularJS + API Seed
+# Adopte un Parti
 
-This is the seed project you need to use if you're going to create an AngularJS app that will use Auth0 and an API that you're going to be developing. That API can be in any language.
+Bienvenue sur Adopte un Parti. Cette application web réalisée en Angular JS à pour but de déterminer le député le plus proche de vous en terme de vision politique.
 
-If you want to connect to a third party API like Firebase or Amazon, please check [this other seed](https://github.com/auth0/auth0-angular/tree/master/examples/widget-with-thirdparty-api).
+Pour cela vous devez avoir voté virtuellement pour 20 lois tirées au hasard entre 2012 et 2015, et il vous sera révélé le député le plus proche de vos convictions politiques.
 
-## Running the example
+Alors ? Surpris ?
 
-In order to run the example you need to just start a server. What we suggest is doing the following:
+### Test de l'application
 
-1. Install node
-1. run npm install -g serve
-1. run serve in the directory of this project.
-
-Go to [http://localhost:3000](http://localhost:3000) and you'll see the app running :).
+Pour voir l'application allez simplement sur [http://1-dot-adopteunparti.appspot.com](http://1-dot-adopteunparti.appspot.com) et vous la verrez en action :)
